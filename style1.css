@@ -1,81 +1,88 @@
-    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
-     :root {
-        --primary: #F2C94C;
-        --black: #333333;
-        --width-break: 600px;
-    }
-    
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
-    
-    html {
-        background: url(images/bg.jpg) no-repeat center center fixed;
-        background-size: cover;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .header {
-        top: 0px;
-        text-align: center;
-        //background: #bc1a6b;
-        color: white;
-        font-size: 20px;
-        position: relative;
-    }
-    
-    textarea {
-        width: 50%;
-        display: block;
-        border: none;
-        min-height: 10vh;
-        border-radius: 20px;
-        margin: 2rem auto;
-        outline: none;
-        padding: 1rem;
-        font-family: 'Sniglet', cursive;
-        font-size: 1em;
-        color: #676767;
-        transition: border 0.5s;
-        border: solid 3px #98d4f3;
-        box-shadow: 0 0 10px black;
-    }
-    
-    button {
-        display: block;
-        width: 10%;
-        border: none;
-        padding: 2px 2px;
-        font-size: 15px;
-        text-align: center;
-        margin: 2rem auto;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: var(--primary);
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px #999;
-    }
-    
-    #btn-translate:hover,
-    #btn-translate:focus {
-        color: black;
-        background-color: paleturquoise;
-        border: 3px solid darkgreen;
-    }
-    
-    footer {
-        position: relative;
-        bottom: 0px;
-        top: 160px;
-        width: 100%;
-        padding: 1rem;
-        background-color: var(--primary);
-        text-align: center;
-        display: block;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+:root {
+  --primary: #f2c94c;
+  --black: #333333;
+  --width-break: 600px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  top: 0px;
+  text-align: center;
+  //background: #bc1a6b;
+  color: white;
+  font-size: 20px;
+  position: relative;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+  border: none;
+  min-height: 10vh;
+  border-radius: 20px;
+  margin: 2rem auto;
+  outline: none;
+  padding: 1rem;
+  font-family: "Sniglet", cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  border: solid 3px #98d4f3;
+  box-shadow: 0 0 10px black;
+}
+
+button {
+  display: block;
+  width: 10%;
+  border: none;
+  padding: 2px 2px;
+  font-size: 15px;
+  text-align: center;
+  margin: 2rem auto;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#btn-translate:hover,
+#btn-translate:focus {
+  color: black;
+  background-color: paleturquoise;
+  border: 3px solid darkgreen;
+}
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0px;
+  top: 160px;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary);
+  text-align: center;
+  display: block;
+}
